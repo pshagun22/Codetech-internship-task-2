@@ -1,0 +1,17 @@
+# Task 2: Advanced Queries - Expected Output
+
+## Ranking Employees by Salary (Window Function Output)
+| Name  | DepartmentID | Salary | Rank |
+|-------|------------|--------|------|
+| Alice | 1          | 70000  | 1    |
+| Bob   | 1          | 60000  | 2    |
+
+## Employees with Above-Average Salary (Subquery Output)
+| Name  | Salary |
+|-------|--------|
+| Alice | 70000  |
+
+## CTE Output (Employees in IT Department)
+| EmployeeID | Name | DepartmentID |
+|------------|------|-------------|
+| 2          | Bob  | 1           |
